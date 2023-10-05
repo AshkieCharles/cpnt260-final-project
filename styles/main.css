@@ -13,13 +13,34 @@ body {
   z-index: 1000;
 }
 
+.nav-main ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 15px;
+}
+
+.nav-main ul li {
+  list-style: none;
+  line-height: 60px;
+}
+
+.nav-main ul li a {
+  text-decoration: none;
+  color: green;
+  display: block;
+  padding: 0 10px;
+  text-transform: uppercase;
+}
+
 .btn-toggle-nav {
   width: 60px;
   height: 100%;
   background-color: rgb(37, 185, 74);
   background-image: url(../Images/menu.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 40%;
   background-position: center;
   cursor: pointer;
 }
+
+
