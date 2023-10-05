@@ -1,0 +1,25 @@
+body {
+  background-color: beige;
+  color: black;
+}
+
+
+.nav-main {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(229, 229, 243, 0.578);
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 1000;
+}
+
+.btn-toggle-nav {
+  width: 60px;
+  height: 100%;
+  background-color: rgb(37, 185, 74);
+  background-image: url(../Images/menu.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  cursor: pointer;
+}
