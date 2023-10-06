@@ -5,6 +5,7 @@ body {
 
 
 .nav-main {
+  top: 0;
   width: 100%;
   height: 60px;
   background-color: rgba(229, 229, 243, 0.578);
@@ -52,5 +53,44 @@ body {
   background-position: center;
   cursor: pointer;
 }
+
+.btn-toggle-nav:hover {
+  opacity: 50%;
+}
+
+.nav-sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  padding: 0 5;
+  /*We will subtract 60 px because the menu button toggle is 60px big*/
+  height: calc(100vh - 60px);
+  background-color: black;
+}
+
+.nav-sidebar ul {
+  padding-top: 15px;
+  /*So that the words doesn't go out of the container*/
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.nav-sidebar ul li {
+  line-height: 60px;
+  list-style: none;
+}
+
+.nav-sidebar ul span, a {
+  display: block;
+  height: 60px;
+  padding: 0 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(0, 128, 19);
+  font-size: 22px;
+  white-space: nowrap;
+}
+
 
 
