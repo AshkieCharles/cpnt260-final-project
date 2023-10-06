@@ -43,7 +43,13 @@ body {
   padding-right: 2rem;
 }
 
+aside {
+  display: none;
+}
+
+
 .btn-toggle-nav {
+  display: none;
   width: 60px;
   height: 100%;
   background-color: rgb(37, 185, 74);
@@ -97,3 +103,27 @@ body {
 }
 
 
+@media screen and (max-width: 600px) {
+  body {
+    background-color: rgb(119, 225, 146);
+  }
+  .nav-main ul li a {
+    display: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .logo {
+    margin: auto;
+    padding: none;
+  }
+
+  .nav-sidebar {
+    display: block;
+  }
+
+  .btn-toggle-nav {
+    display: block;
+  }
+  
+}
