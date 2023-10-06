@@ -92,5 +92,8 @@ body {
   white-space: nowrap;
 }
 
+.nav-sidebar ul li a:hover {
+  color: red;
+}
 
 
