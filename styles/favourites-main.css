@@ -7,10 +7,10 @@
 .product-grid {
   display: grid;
   grid-template-columns: 
-  repeat(auto-fit, minmax(15rem, 1fr));
+  repeat(auto-fit, minmax(30rem, 1fr));
   grid-gap: 2rem;
-  overflow: hidden;
-  grid-template-rows: minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(0px, 0);
+  border: 2rem;
+  border: red;
 
 }
 
@@ -22,39 +22,48 @@ img {
 }
 
 .stacked {
+  padding-top: 2rem;
   display: grid;
+
 }
 
 /*Choose every direct child*/
 .stacked > * {
   grid-column: 1 / 2;
-  grid-row: 1 / 2;
+  grid-row: 2 / 4;
 }
 
 .card-content {
-  background-color: white;
+  background-color: hsla(0, 0%, 0%, 0.90);
   align-self: end;
   margin: .2rem;
   padding: .2rem;
   box-shadow: 10px 10px 5px rgb(26, 12, 12);
+  border: 2rem;
 }
 
 
 .card {
   aspect-ratio: 5 / 16;
+  justify-content: space-between;
+  border: 1rem;
 }
 
 .card-title {
   font-size: 1.2rem;
   text-align: center;
   line-height: 1.1;
-  color: aqua;
+  color: rgb(200, 255, 0);
 }
 
 .card-description {
   font-size: 1.50rem;
 }
 
+/*So that the anchor tag is only to the position of the card image and description*/
+a {
+  position: relative;
+}
 
 
 @media screen and (max-width: 700px){
@@ -79,6 +88,8 @@ img {
     padding: 1em;
     grid-row-gap: 100px;
     aspect-ratio: 4/16;
+    padding-right: 1rem;
+    margin: auto;
   }
 
 }
@@ -89,18 +100,7 @@ img {
     grid-template-columns: 1fr;
     padding: 1em;
     grid-row-gap: 100px;
-    aspect-ratio: 4.7/16;
-  }
-
-}
-
-@media screen and (min-width: 800px){
-  .card {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 1em;
-    grid-row-gap: 100px;
-    aspect-ratio: 4.7/16;
+    aspect-ratio: 5.3/10;
   }
 
 }
