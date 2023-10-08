@@ -50,6 +50,7 @@ body {
 
 
 .btn-toggle-nav {
+  display: none;
   width: 60px;
   height: 100%;
   background-color: rgb(37, 185, 74);
@@ -62,6 +63,10 @@ body {
 
 .btn-toggle-nav:hover {
   opacity: 50%;
+}
+
+aside {
+  display: none;
 }
 
 .nav-sidebar {
@@ -110,6 +115,12 @@ body {
   body {
     background-color: rgb(119, 225, 146);
   }
+
+  .btn-toggle-nav {
+    display: block;
+  }
+
+
   .nav-main ul li a {
     display: none;
     padding: 0;
