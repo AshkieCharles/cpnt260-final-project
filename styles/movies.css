@@ -7,11 +7,11 @@
 }
 
 .product-grid {
+  max-width: 1200px;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: 
-  repeat(auto-fit, minmax(30rem, 1fr));
-  grid-gap: 2rem;
-
+  grid-template-columns: repeat(auto-fit, minmax(450px, 2fr));
+  grid-gap: 5px;
 }
 
 
@@ -92,7 +92,6 @@ img {
     padding: 1em;
     grid-row-gap: 100px;
     aspect-ratio: 4/16;
-    padding-right: 1rem;
     margin: auto;
   }
 
