@@ -43,7 +43,12 @@ let toggleNav = function() {
 
 }
 
-document.querySelectorAll('.nav-link').forEach(link => {
+document.querySelectorAll('.nav-link','.nav-side-menu').forEach(link => {
+  if(link.href === window.location.href){
+    link.setAttribute('aria-current', 'page')
+  }
+})
+document.querySelectorAll('.nav-side-menu').forEach(link => {
   if(link.href === window.location.href){
     link.setAttribute('aria-current', 'page')
   }

@@ -38,6 +38,11 @@ body {
   background-color: black;
   color: blue;
 }
+.nav-side-menu[aria-current="page"] {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0)
+}
+
 
 .logo {
   display: flex;
