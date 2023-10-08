@@ -9,6 +9,8 @@
   grid-template-columns: 
   repeat(auto-fit, minmax(15rem, 1fr));
   grid-gap: 2rem;
+  overflow: hidden;
+  grid-template-rows: minmax(15rem, 1fr) minmax(15rem, 1fr) minmax(0px, 0);
 
 }
 
@@ -67,4 +69,38 @@ img {
   .product-grid {
     padding-left: 3rem;
   }
+}
+
+
+@media screen and (min-width: 700px){
+  .card {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1em;
+    grid-row-gap: 100px;
+    aspect-ratio: 4/16;
+  }
+
+}
+
+@media screen and (min-width: 800px){
+  .card {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1em;
+    grid-row-gap: 100px;
+    aspect-ratio: 4.7/16;
+  }
+
+}
+
+@media screen and (min-width: 800px){
+  .card {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1em;
+    grid-row-gap: 100px;
+    aspect-ratio: 4.7/16;
+  }
+
 }
