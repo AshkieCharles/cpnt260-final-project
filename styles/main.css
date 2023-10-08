@@ -41,6 +41,7 @@ body {
   /*Float and justify content will not put the logo on the other end but adding margin-left auto did.*/
   margin-left: auto;
   padding-right: 2rem;
+  color: red;
 }
 
 aside {
@@ -87,7 +88,7 @@ aside {
   list-style: none;
 }
 
-.nav-sidebar ul span, a {
+.nav-sidebar ul span, .nav-sidebar ul li a {
   display: block;
   height: 60px;
   padding: 0 10px;
