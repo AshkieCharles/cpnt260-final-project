@@ -7,30 +7,33 @@
   <link rel="stylesheet" href="styles/fonts.css">
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="styles/reset.css">
-  <script defer src="main.js"></script>
   
+  <script defer src="main.js"></script>
 </head>
 <body>
-
-  <nav class="nav-main">
-    <div class="btn-toggle-nav"></div>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="Favourite.html">Favourite</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-    <div class="logo"><a href="index.html">HariKut</div>
-  </nav>
-  <!--This will be the part that will be moved and changed by javascript-->
- <aside class="nav-sidebar">
-  <ul>
-    <li><span>Menu</span></li>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Favourite</a></li>
-    <li><a href="#">Contact</a></li>
-  </ul>
- </aside>
-
+  <header>
+    <nav class="nav-main">
+        <div class="btn-toggle-nav" onclick="toggleNav()"></div>
+        <ul class>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">Favourite</a></li>
+          <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+        <div class="logo">Hari Kari</div>
+     
+      </nav>
+  
+      <aside class="nav-sidebar">
+        <ul>
+          <li><span>Menu</span></li>
+          <!--The links will have an underline when the user is on that page-->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+  
+      </aside>
+    </header>
 
   
 </body>

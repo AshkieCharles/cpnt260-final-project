@@ -41,16 +41,15 @@ body {
   /*Float and justify content will not put the logo on the other end but adding margin-left auto did.*/
   margin-left: auto;
   padding-right: 2rem;
-  color: red;
+  color: rgb(0, 208, 255);
 }
 
-aside {
-  display: none;
+.logo a {
+  color: rgb(0, 208, 255);
 }
 
 
 .btn-toggle-nav {
-  display: none;
   width: 60px;
   height: 100%;
   background-color: rgb(37, 185, 74);
@@ -74,13 +73,14 @@ aside {
   /*We will subtract 60 px because the menu button toggle is 60px big*/
   height: calc(100vh - 60px);
   background-color: black;
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav-sidebar ul {
   padding-top: 15px;
   /*So that the words doesn't go out of the container*/
   overflow: hidden;
-  visibility: hidden;
 }
 
 .nav-sidebar ul li {
@@ -96,7 +96,9 @@ aside {
   text-transform: uppercase;
   color: rgb(0, 128, 19);
   font-size: 22px;
+  opacity: 0;
   white-space: nowrap;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav-sidebar ul li a:hover {
@@ -120,10 +122,20 @@ aside {
 
   .nav-sidebar {
     display: block;
+    visibility: visible;
+  }
+
+  .nav-sidebar ul {
+    visibility: visible;
   }
 
   .btn-toggle-nav {
     display: block;
   }
+
+  aside {
+    display: block;
+  }
+
   
 }
