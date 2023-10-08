@@ -11,8 +11,6 @@
   grid-template-columns: 
   repeat(auto-fit, minmax(30rem, 1fr));
   grid-gap: 2rem;
-  border: 2rem;
-  border: red;
 
 }
 
@@ -52,19 +50,20 @@ img {
 }
 
 .card-title {
-  font-size: 1.2rem;
   text-align: center;
   line-height: 1.1;
   color: rgb(200, 255, 0);
 }
 
-.card-description {
-  font-size: 1.50rem;
-}
 
 /*So that the anchor tag is only to the position of the card image and description*/
 a {
   position: relative;
+}
+
+img {
+  border-radius: 2rem;
+  border: color(red);
 }
 
 

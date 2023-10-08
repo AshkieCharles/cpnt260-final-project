@@ -35,7 +35,6 @@ body {
 }
 
 .logo {
-  font-size: 3rem;
   display: flex;
   text-align: center ;
   /*Float and justify content will not put the logo on the other end but adding margin-left auto did.*/
@@ -101,7 +100,6 @@ aside {
   text-decoration: none;
   text-transform: uppercase;
   color: rgb(0, 128, 19);
-  font-size: 22px;
   opacity: 0;
   white-space: nowrap;
   transition: all 0.3s ease-in-out;
@@ -110,6 +108,21 @@ aside {
 .nav-sidebar ul li a:hover {
   color: red;
 }
+
+.nav-main ul li a:hover {
+  background-color: rgb(5, 5, 5);
+  transition: all 0.3s ease-in-out;
+  
+}
+
+
+footer p {
+  background-color: black;
+  text-align: center;
+  padding: 1rem;
+  color: aliceblue;
+}
+
 
 
 
