@@ -6,9 +6,10 @@
 
 .product-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 
+  repeat(auto-fit, minmax(15rem, 1fr));
   grid-gap: 2rem;
-  
+
 }
 
 img {
@@ -50,4 +51,20 @@ img {
 
 .card-description {
   font-size: 1.50rem;
+}
+
+
+
+@media screen and (max-width: 700px){
+  .card {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1em;
+    grid-row-gap: 100px;
+    aspect-ratio: 4/10;
+  }
+
+  .product-grid {
+    padding-left: 3rem;
+  }
 }
