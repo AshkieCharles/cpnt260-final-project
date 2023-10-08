@@ -7,6 +7,7 @@
 - [SideBar](https://youtu.be/urol_SD1wz4?si=ckBkHH5Ee9eH3pYk)
 - [Grid-Gap](https://www.w3schools.com/cssref/pr_grid-gap.php)
 - [Anchor-Tag](https://stackoverflow.com/questions/43912588/anchor-text-going-outside-div)
+- [Horizontal-Bar](https://stackoverflow.com/questions/6751855/why-is-a-horizontal-scroll-bar-appearing-if-none-of-the-elements-are-wider-than)
 
 ## Image Links:
 - [Spider-Man](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ebay.ca%2Fitm%2F334540774083&psig=AOvVaw1J6VFItSQGSIPdvZsazPAo&ust=1696872865292000&source=images&cd=vfe&opi=89978449&ved=0CBQQ3YkBahcKEwiYjsGV_uaBAxUAAAAAHQAAAAAQEA)

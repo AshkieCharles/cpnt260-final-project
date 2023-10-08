@@ -2,6 +2,8 @@
   max-width: 100rem;
   margin-inline: auto;
   padding-inline: 2rem;
+  position: relative;
+  overflow: hidden;
 }
 
 .product-grid {
@@ -76,7 +78,8 @@ a {
   }
 
   .product-grid {
-    padding-left: 3rem;
+    padding-left: 0.7rem;
+    margin: auto;
   }
 }
 
@@ -102,5 +105,6 @@ a {
     grid-row-gap: 100px;
     aspect-ratio: 5.3/10;
   }
+  
 
 }

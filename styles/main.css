@@ -59,6 +59,7 @@ body {
   background-size: 40%;
   background-position: center;
   cursor: pointer;
+  z-index: 10000;
 }
 
 .btn-toggle-nav:hover {
