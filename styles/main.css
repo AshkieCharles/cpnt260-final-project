@@ -115,6 +115,11 @@ aside {
   transition: all 0.3s ease-in-out;
 }
 
+.nav-sidebar{
+  position: fixed;
+}
+
+
 .nav-sidebar ul li a:hover {
   color: red;
 }
