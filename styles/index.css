@@ -1,0 +1,31 @@
+body {
+  background-image: url(../Images/morpheus.jpg);
+  background-position-x: 9%;
+  background-position-y: 50%;
+  background-attachment: fixed;
+  /*To make sure the background is responsive*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*Keeps the background image centered even when mobile*/
+  background-position: center center;
+}
+
+.blue-pill, .red-pill {
+  padding-top: 20rem;
+  height: 100vh;
+  margin:auto;
+  display:inline-block;
+  color: red;
+  background: blue;
+}
+
+
+.red-pill {
+  width: 300px;
+  height: 40px;
+  
+}
+.blue-pill{
+width: 300px;
+height: 40px; 
+}
