@@ -11,7 +11,7 @@ h1 {
 }
 
 input {
-  background-color: wheat;
+  background-color: rgb(237, 239, 236);
   width:70%;
   margin-left: 12%;
   font-size: 20px;
@@ -48,7 +48,7 @@ textarea:focus-within {
 button {
   background-color: green;
   border-radius: 12px;
-  border-color: black;
+  border-color: rgb(17, 17, 17);
   font-size: 20px;
   padding: 10px 18px;
   text-align: center;
@@ -56,4 +56,10 @@ button {
   margin: auto;
 }
 
-button:hover
+button:hover{
+  background-color: black;
+  color: white;
+  opacity: 50%;
+  cursor: pointer;
+  
+}
