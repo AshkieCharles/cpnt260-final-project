@@ -55,6 +55,7 @@ button {
   text-align: center;
   display: flex;
   margin: auto;
+  margin-left: 35%;
 }
 
 button:hover{
