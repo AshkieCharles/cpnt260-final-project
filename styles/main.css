@@ -148,7 +148,7 @@ footer p {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   body {
     background-color: rgb(119, 225, 146);
   }
