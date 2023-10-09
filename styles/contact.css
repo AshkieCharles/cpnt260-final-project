@@ -63,3 +63,17 @@ button:hover{
   cursor: pointer;
   
 }
+
+iframe {
+  padding-top: 10rem;
+  margin: auto;
+  display: block;
+  justify-self: center;
+}
+@media screen and (max-width:800px) {
+  iframe {
+    width: 400px;
+    height: 400px;
+  }
+}
+  
