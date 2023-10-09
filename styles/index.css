@@ -30,16 +30,9 @@ h1, h2 {
   margin-top: 2rem;
 }
 
-h1, h2 {
-  margin-top: 2rem;
-}
-
-
-
-
 
 .options {
-  padding-top: 5rem;
+  padding-top: 2rem;
   display: flex;
   justify-content: space-evenly;
 }
@@ -73,17 +66,22 @@ h1, h2 {
   margin-right: 5rem;
   max-width: 70%;
   max-height: 70%;
-  background-color: blue;
+  background-color: rgb(74, 155, 97);
+}
+
+
+.red a {
+  color: rgb(3, 250, 65);
 }
 
 @media screen and (max-width: 600px){
   h1, h2 {
-    max-width: 40ch;
-    display: flex;
-    padding-left: 2rem;
+    max-width: 20ch;
+    margin: auto;
     font-size: 19px;
-    margin-left: 3rem;
+    margin-top: 1rem;
   }
+
 
   body {
     background-position-y: 0vh;
