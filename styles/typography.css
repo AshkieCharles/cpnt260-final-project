@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
+
+
+
+
 .card-content p{
   color: rgb(48, 147, 218);
   padding: 1rem;
@@ -24,5 +29,7 @@ footer p {
 }
 
 .logo {
-  font-size: 3rem;
+  font-family: 'Finger Paint', sans-serif;
+  font-size: 2.5rem;
 }
+

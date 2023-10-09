@@ -2,9 +2,7 @@ body {
   color: white;
   background-image:
     linear-gradient(to right, rgba(233, 40, 75, 0.40), rgba(14, 55, 168, 0.40)),
-    url(../Images/morpheus.jpg);
-  background-position-x: 9%;
-  background-position-y: 50%;
+    url(../Images/big-space-battles.jpg);
   background-attachment: fixed;
   /*To make sure the background is responsive*/
   background-size: cover;
@@ -14,21 +12,40 @@ body {
   
 }
 
-h1 {
+.hero-section {
   padding-top: 10rem;
-  text-align: center;
 }
 
+
+h1, h2 {
+  max-width: 20ch;
+  padding: 1rem;
+  text-align: center;
+  font-size: 22px;
+  justify-content: center;
+  border-radius: 12px;
+  border: 2px;
+  background-color: hsla(20, 32%, 50%, 0.6);
+  margin: auto;
+  margin-top: 2rem;
+}
+
+h1, h2 {
+  margin-top: 2rem;
+}
+
+
+
+
+
 .options {
-  padding-top: 24rem;
+  padding-top: 5rem;
   display: flex;
   justify-content: space-evenly;
 }
 
 .button {
-  background-color: #ddd;
   border: none;
-  color: black;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -37,17 +54,40 @@ h1 {
   cursor: pointer;
   border-radius: 16px;
   justify-self: center;
+  text-decoration: none;
 }
 
+.button:hover {
+  opacity: 50%;
+}
+
+
 .red {
+  margin-left: 5rem;
   max-width: 70%;
   max-height: 70%;
   background-color: red;
 }
 
 .blue {
+  margin-right: 5rem;
   max-width: 70%;
   max-height: 70%;
   background-color: blue;
+}
+
+@media screen and (max-width: 600px){
+  h1, h2 {
+    max-width: 40ch;
+    display: flex;
+    padding-left: 2rem;
+    font-size: 19px;
+    margin-left: 3rem;
+  }
+
+  body {
+    background-position-y: 0vh;
+    background-position-x: 30%;
+  }
 
 }
