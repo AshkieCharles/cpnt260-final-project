@@ -8,12 +8,13 @@ h1 {
   text-align: center;
   font-size: 50px;
   padding-bottom: 2rem;
+  margin-left: 5%;
 }
 
 input {
   background-color: rgb(237, 239, 236);
   width:70%;
-  margin-left: 12%;
+  margin-left: 15%;
   font-size: 20px;
   padding: 16px 16px;
   border-radius: 10px;
@@ -24,7 +25,7 @@ input {
 textarea {
   background-color: white;
   width: 70%;
-  margin-left: 12%;
+  margin-left: 15%;
   font-size: 20px;
   padding: 16px 16px;
   border-radius: 10px;
@@ -74,6 +75,7 @@ iframe {
   iframe {
     width: 400px;
     height: 400px;
+    margin-left: 15%;
   }
 }
   
