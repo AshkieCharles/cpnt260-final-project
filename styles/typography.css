@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
 
 .card-content p{
   color: rgb(48, 147, 218);
@@ -11,12 +11,21 @@
 .card-title {
   font-size: 1.2rem;
   text-align: center;
+  font-family: 'Bruno Ace SC', sans-serif;
   
 }
 
 .card-description {
   font-size: 1.50rem;
+  font-family: 'Anton', sans-serif;
+  
 }
+
+.nav-main {
+  font-family: 'Dela Gothic One', sans-serif;
+}
+
+
 
 .nav-sidebar ul span, .nav-sidebar ul li a {
   font-size: 22px;
