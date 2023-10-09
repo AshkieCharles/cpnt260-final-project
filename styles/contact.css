@@ -68,8 +68,10 @@ button:hover{
 iframe {
   padding-top: 5rem;
   margin: auto;
+  padding-bottom: 2rem;
   display: block;
   justify-self: center;
+  
 }
 @media screen and (max-width:800px) {
   iframe {

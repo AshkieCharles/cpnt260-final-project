@@ -1,5 +1,8 @@
 body {
-  background-image: url(../Images/morpheus.jpg);
+  color: white;
+  background-image:
+    linear-gradient(to right, rgba(233, 40, 75, 0.40), rgba(14, 55, 168, 0.40)),
+    url(../Images/morpheus.jpg);
   background-position-x: 9%;
   background-position-y: 50%;
   background-attachment: fixed;
@@ -8,24 +11,43 @@ body {
   background-repeat: no-repeat;
   /*Keeps the background image centered even when mobile*/
   background-position: center center;
-}
-
-.blue-pill, .red-pill {
-  padding-top: 20rem;
-  height: 100vh;
-  margin:auto;
-  display:inline-block;
-  color: red;
-  background: blue;
-}
-
-
-.red-pill {
-  width: 300px;
-  height: 40px;
   
 }
-.blue-pill{
-width: 300px;
-height: 40px; 
+
+h1 {
+  padding-top: 10rem;
+  text-align: center;
+}
+
+.options {
+  padding-top: 24rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  justify-self: center;
+}
+
+.red {
+  max-width: 70%;
+  max-height: 70%;
+  background-color: red;
+}
+
+.blue {
+  max-width: 70%;
+  max-height: 70%;
+  background-color: blue;
+
 }
