@@ -123,7 +123,7 @@ aside {
 }
 
 .nav-main ul li a:hover {
-  background-color: rgb(5, 5, 5);
+  background-color: rgb(255, 255, 255);
   transition: all 0.3s ease-in-out;
   
 }
@@ -147,6 +147,37 @@ footer p {
   overflow: hidden;
   margin: 5px 10px;
 }
+
+.footer-container{
+  background-color: black;
+}
+
+.footer-nav {
+  padding-top: 1rem;
+  margin: 30px 0;
+  background-color: black;
+}
+
+.footer-nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.footer-nav ul li a {
+  color: white;
+  margin: 25px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: 0.5s;
+  opacity: 0.8;
+}
+
+.footer-nav ul li a:hover {
+  opacity: 1;
+}
+
+
 
 
 @media screen and (max-width: 780px) {

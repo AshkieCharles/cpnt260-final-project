@@ -25,3 +25,6 @@
 - [Puss-in-Boots](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt3915174%2F&psig=AOvVaw1SzVZzC5lQz4USqnP4hOcW&ust=1696875843268000&source=images&cd=vfe&opi=89978449&ved=0CBQQ3YkBahcKEwjooLahieeBAxUAAAAAHQAAAAAQBA)
 - [Space](https://wallpapercrafter.com/539226-eve-online-science-fiction-space-spaceship-space-battle.html)
 - [Logo](https://www.freepik.com/free-vector/flat-code-logo-collection_12151197.htm#query=logo&position=8&from_view=keyword&track=sph)
+- [Home](https://icons8.com/icon/73/home)
+- [Movie](https://icons8.com/icon/lEV2xeBg4PUI/movie)
+- [Contact](https://icons8.com/icon/9659/phone)
