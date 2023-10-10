@@ -3,33 +3,33 @@ main {
 }
 
 h1 {
-  color: red;
-  padding: 1rem;
-  text-align: center;
   font-size: 50px;
+  color: red;
+  text-align: center;
+  padding: 1rem;
   padding-bottom: 2rem;
   margin-left: 5%;
 }
 
 input {
-  background-color: rgb(237, 239, 236);
-  width:70%;
-  margin-left: 15%;
   font-size: 20px;
-  padding: 16px 16px;
-  border-radius: 10px;
+  width:70%;
+  background-color: rgb(237, 239, 236);
   border-color: black;
+  border-radius: 10px;
+  padding: 16px 16px;
+  margin-left: 15%;
   margin-bottom: 20px;
 }
 
 textarea {
-  background-color: white;
-  width: 70%;
-  margin-left: 15%;
   font-size: 20px;
-  padding: 16px 16px;
-  border-radius: 10px;
+  width: 70%;
+  background-color: white;
   border-color: black;
+  border-radius: 10px;
+  padding: 16px 16px;
+  margin-left: 15%;
   margin-bottom: 30px;
 }
 
@@ -47,14 +47,14 @@ textarea:focus-within {
 }
 
 button {
-  background-color: green;
-  border-radius: 12px;
-  border-color: rgb(17, 17, 17);
-  font-size: 20px;
-  padding: 10px 18px;
-  text-align: center;
   display: flex;
+  font-size: 20px;
+  border-radius: 12px;
+  text-align: center;
+  padding: 10px 18px;
   margin: auto;
+  border-color: rgb(17, 17, 17);
+  background-color: green;
 }
 
 button:hover{
@@ -66,11 +66,11 @@ button:hover{
 }
 
 iframe {
-  padding-top: 5rem;
-  margin: auto;
-  padding-bottom: 2rem;
   display: block;
   justify-self: center;
+  margin: auto;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
   
 }
 
