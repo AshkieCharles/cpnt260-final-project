@@ -66,12 +66,15 @@ a {
 
 img {
   border-radius: 2rem;
-  border: color(red);
 }
 
 .footer-nav img {
   max-width: 60px;
   max-height: 60px;
+}
+
+iframe {
+  border: none;
 }
 
 
