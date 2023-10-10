@@ -25,10 +25,9 @@ h1, h2 {
   justify-content: center;
   border-radius: 12px;
   border: 2px;
+  background-color: hsla(20, 32%, 50%, 0.6);
   margin: auto;
   margin-top: 2rem;
-  color: #000000;
-  background-color: hsla(176, 61%, 60%, 0.6);
 }
 
 
@@ -68,8 +67,8 @@ h1, h2 {
   margin-left: 5rem;
   max-width: 70%;
   max-height: 70%;
-  background-color: rgb(247, 0, 255);
-  color: rgb(0, 21, 248);
+  background-color: red;
+  color: black;
 }
 
 .blue {
