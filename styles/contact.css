@@ -72,15 +72,17 @@ iframe {
   padding-top: 5rem;
   padding-bottom: 2rem;
   border: none;
+  max-width: 500px;
+  max-height: 300px;
 }
 
 
 
 @media screen and (max-width:800px) {
   iframe {
-    width: 400px;
-    height: 400px;
-    margin-left: 15%;
+    width: 350px;
+    height: 300px;
+    margin-left: 20%;
   }
   button {
     margin-left: 35%;
